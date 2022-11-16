@@ -13,11 +13,11 @@ parola = prompt("Inserisci una parola. Verrà controllata se è palindroma");
 console.log("La parola inserita è " + parola);
 
 //Richiamo funzione palindromo passando come argomento la variabile parola.
-palindromoCheck(parola);
+isPalindromo(parola);
 
 
 //Funzione palindromo
-function palindromoCheck(p) {
+function isPalindromo(p) {
 
 
     //Inizializzo array vuoto.
@@ -86,7 +86,7 @@ numeroEstratto = parseInt(numeroRan());
 
 
 //risultato = controlloSomma(numeroUtente , numeroEstratto, sceltaUtente); per Versione 1
-controlloSomma(numeroUtente , numeroEstratto, sceltaUtente);
+isSommaPariDispari(numeroUtente , numeroEstratto, sceltaUtente);
 
 //funzione che restituisce un numero random da 1 a 5
 function numeroRan(){
@@ -101,7 +101,7 @@ function numeroRan(){
 
 //funzione che somma i due numeri. Controlla se la somma è pari e dispari
 //confronta il risultato con la scelta dell'utente. (Ver-2)
-function controlloSomma(numUtente, numEstratto, sceUtente){
+function isSommaPariDispari(numUtente, numEstratto, sceUtente){
     let somma, controllo;
     somma = 0;
     controllo = "";
